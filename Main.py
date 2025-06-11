@@ -4,6 +4,9 @@ import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 
+pip install -r requirements.txt
+
+
 # Helper: get metric from ticker info or price
 def get_metric_value(ticker, metric, data, date):
     if metric == "Price":
