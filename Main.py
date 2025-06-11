@@ -1,10 +1,12 @@
+
+pip install -r requirements.txt
 import streamlit as st
 import yfinance as yf
 import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 
-pip install -r requirements.txt
+
 
 
 # Helper: get metric from ticker info or price
